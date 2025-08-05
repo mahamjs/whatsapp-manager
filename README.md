@@ -124,14 +124,7 @@ Frontend URL: `http://localhost:3000`
 
 ---
 
-## Production Deployment
 
-### Backend with Gunicorn
-
-```bash
-pip install gunicorn
-gunicorn -w 4 -b 0.0.0.0:5000 run:app
-```
 
 ## WhatsApp Business API Configuration
 
