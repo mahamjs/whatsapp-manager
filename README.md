@@ -135,10 +135,6 @@ Frontend URL: `http://localhost:3000`
    * Business Account ID
    * Access Token
    * Webhook Verify Token
-3. **Webhook Setup**:
-
-   * URL: `https://your-domain.com/webhook`
-   * Events: `messages`, `message_deliveries`, `message_reads`
 
 ---
 
@@ -250,7 +246,6 @@ npx kill-port 3000
 
 ### WhatsApp API
 
-* Ensure webhook is accessible
 * Verify API token permissions
 * Check phone number verification
 * Meta Business verification required
